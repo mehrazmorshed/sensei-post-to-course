@@ -170,6 +170,7 @@ class Sensei_Post_To_Course_Admin {
 			'sptc_settings',
 			'post-to-course',
 			sprintf(
+				/* translators: %1$s is Course URL; %2$s is Course name. */
 				__( 'Course <a href="%1$s">%2$s</a> was created successfully!', 'sensei-post-to-course' ),
 				get_edit_post_link( $course_id ),
 				$course_name
